@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JuegoActivity">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <GridLayout
+        android:id="@+id/celdas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:padding="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/carta1"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+
+        <ImageView
+            android:id="@+id/carta2"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta3"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta4"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta5"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta6"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta7"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta8"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta9"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta10"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta11"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta12"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta13"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta14"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta15"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+        <ImageView
+            android:id="@+id/carta16"
+            style="@style/Grid1"
+            android:src="@drawable/abajo" />
+
+
+
+
+
+
+
+
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
